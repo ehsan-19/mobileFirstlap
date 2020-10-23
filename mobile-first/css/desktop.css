@@ -18,6 +18,7 @@ header,
 .mainNav {
     padding: 8px 0;
     height: auto;
+    display: block;
 }
 .mainNav .row ul {
     display: flex;
@@ -40,6 +41,28 @@ header nav ul li h1{
     margin: 5px;
     font-size: 1.2rem;
     color: aliceblue;
+}
+
+.logo {
+ padding: 5px 0px;
+ flex-basis: 85%;
+ position: relative;
+}
+.logo img {
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+.loginLinks {
+ flex-basis: 15%;
+}
+.search {
+ padding: 5px 0;
+ flex-basis: 40%;
+}
+header {
+ justify-content: flex-end;
+ padding: 0 0 0 5px;
 }
 .banner{
     background-image: url(../images/banner1-1366.jpg);
