@@ -98,3 +98,21 @@ main {
    .straplineImg > img {
     width: 100%;
 }
+/* Form Styling */
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+input[type="test"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 200%;
+    padding: 10px;
+
+}
+/*
+form > div {
+    margin-bottom: 15px;
+}*/

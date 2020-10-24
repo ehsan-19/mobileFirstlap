@@ -168,4 +168,19 @@ footer .row address {
 .footerLinks li a:hover {
  text-decoration: underline;
 }
+/* Form Styling */
 
+label{
+    display: block;
+}
+input[type="test"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 100%;
+    padding: 10px;
+
+}
+form > div {
+    margin-bottom: 15px;
+}
